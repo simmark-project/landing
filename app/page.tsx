@@ -82,9 +82,8 @@ export default function Home() {
               className="w-full h-auto block opacity-50 brightness-[0.3]"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
-              <div className="mb-6 space-y-2">
-                <h2 className="text-2xl md:text-4xl font-black tracking-tight">프로젝트 무료 사용 종료까지</h2>
-                <p className="text-blue-400 font-bold">2026년 6월 24일 만료 예정</p>
+              <div className="mb-6">
+                <h2 className="text-2xl md:text-4xl font-black tracking-tight uppercase">무료 사용 종료까지 남은 시간</h2>
               </div>
 
               {!timeLeft.isExpired ? (
@@ -117,11 +116,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      {/* Simple Footer */}
-      <footer className="py-12 text-center text-gray-500 text-xs bg-black">
-        <p>© 2026 SIMMARK. All rights reserved.</p>
-      </footer>
     </div>
   );
 }
