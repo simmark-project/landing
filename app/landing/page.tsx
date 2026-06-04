@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   const images = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const extensionUrl = "https://chromewebstore.google.com/detail/simmark-ai-%EB%B6%81%EB%A7%88%ED%81%AC-%EC%A0%95%EB%A6%AC/kmblaifgcnldcklbceioinenknioaaae?hl=ko";
+  const extensionUrl = "https://chromewebstore.google.com/detail/simmark-ai-%EB%B6%81%EB%A7%88%ED%81%AC-%EC%A0%95%EB%A6%AC/kmblaifgcnldcklbceioinenknioaaae?hl=ko&utm_source=landing_page&utm_medium=button&utm_campaign=simmark_launch";
   
   const expiryDate = new Date("2026-06-24T00:00:00").getTime();
   
