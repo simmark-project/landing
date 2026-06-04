@@ -31,11 +31,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
-    </html>
-  );
-}
-gmanager.com/gtag/js?id=G-WH1QB4T33Z"
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-WH1QB4T33Z"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
